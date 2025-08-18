@@ -60,7 +60,7 @@ create a new folder
 It creates multiple directories at once .
 
 ### The output is follows as :
-![Image ](<Screenshot from 2025-08-18 15-48-24.png>)
+![Image](<Screenshot from 2025-08-18 15-48-24.png>)
 
 
 ## "touch" command : 
@@ -90,6 +90,7 @@ TO copy files and directories from one to another .
 ```bash 
 >>mv oldname.txt newname.txt 
 ```
+
  
 
 
