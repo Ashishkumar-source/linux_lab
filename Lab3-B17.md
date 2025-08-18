@@ -18,7 +18,7 @@ this command shows the current location in the file system.
 ## "ls" commands:
 
 ```bash
->>>ls 
+>>ls 
 ```
 
 Explanation: 
@@ -90,7 +90,128 @@ TO copy files and directories from one to another .
 ```bash 
 >>mv oldname.txt newname.txt 
 ```
+Explanation : 
 
- 
+
+### The output is follows as :
+
+
+
+
+## "rm" command : 
+```bash 
+>>rm file.txt 
+>>rm -r folder_name 
+```
+
+
+Explanation :
+This command is used to remove files.
+Be careful! There is no undo.
+
+### The output is follows as :
+
+
+
+# File Viewing & Editing 
+
+## "cat'command :
+
+```bash
+>>cat file.txt 
+```
+Explanation : 
+TO view the file content 
+This command displays content in terminal.
+
+
+
+# The output is follows as : 
+![Image](<Screenshot from 2025-08-18 20-33-55.png>)
+
+
+
+
+## "nano" command : 
+
+```bash 
+>>nano file.txt 
+```
+Explanation : 
+Ctrl + O	Save file (write out)
+Ctrl + X	Exit nano
+Ctrl + R	Insert another file into the current one
+Ctrl + K	Cut (remove) a line
+Ctrl + U	Paste (after cutting)
+Ctrl + W	Search text
+Ctrl + \	Search and replace
+Ctrl + G	Help menu
+Ctrl + C	Show cursor position
+
+It used to edit the text.
+
+
+### The output is follows : 
+
+
+
+## "clear" command : 
+
+```bash 
+>>clear 
+```
+
+Explanation : 
+It is used to clear the terminal.
+
+Shortcut -> CTRL + L 
+  
+
+### The output is follows as : 
+![Image](<Screenshot from 2025-08-18 20-48-31.png>)
+
+
+# System commands : 
+
+
+## "echo" command : 
+```bash 
+>>echo "  "
+```
+Explanation : 
+It is used to print Text. 
+ Useful for debugging or scripting. 
+
+ ### The output is follows as :
+![Image](<Screenshot from 2025-08-18 20-58-08-1.png>)
+
+## "whoami" command : 
+
+```bash 
+>>whomi 
+```
+
+Explanation : 
+It is used to show current user . 
+
+### The output is follows as : 
+![Image](<Screenshot from 2025-08-18 21-04-19.png>)
+
+## "man" command :
+
+```bash 
+>>man ls 
+```
+
+Explanation : 
+
+### The output is follows as : 
+![Image](<Screenshot from 2025-08-18 21-08-15.png>)
+
+## 
+
+
+
+
 
 
