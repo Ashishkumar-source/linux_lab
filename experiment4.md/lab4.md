@@ -58,7 +58,23 @@ chmod 000 file.txt
 ### output: 
 ![Image](<Screenshot from 2025-08-20 13-20-37.png>)
 
+```bash 
+chmod 777 file.txt 
+```
+### output :
+![Image](<Screenshot from 2025-08-20 13-22-14.png>)
 
+```bash 
+chmod 766 file.txt
+```
+### output : 
+![Image](<Screenshot from 2025-08-22 01-17-39-1.png>)
+
+```bash 
+chmod 711 file.txt
+```
+### output : 
+![Image](<Screenshot from 2025-08-22 01-25-15.png>)
 
 Meaning:
 
