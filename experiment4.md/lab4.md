@@ -24,4 +24,5 @@ r-- -> others have read only
 ### syntax 
 ```bash
 >>chmod [options ]mode file name 
+```
 modes can be set in numerical (octal) or symbolic form. 
