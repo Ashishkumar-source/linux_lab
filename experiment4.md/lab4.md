@@ -79,7 +79,7 @@ Use u (user/owner), g (group), o (others), a (all). Operators:
 chmod u+x script.sh     # Add execute for owner
 ``` 
 ### output: 
-![Image](<Screenshot from 2025-08-21 19-53-06.png>)
+![Image](<Screenshot from 2025-08-21 23-28-51.png>)
 
 ```bash
 chmod g-w notes.txt     # Remove write from group
