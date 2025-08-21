@@ -91,7 +91,7 @@ chmod g-w notes.txt     # Remove write from group
 chmod o=r file.txt      # Set others to read only
 ```
 ### output:
-![Image](<../Screenshot from 2025-08-18 21-08-15.png>)
+![Image](<Screenshot from 2025-08-21 20-12-42.png>)
 
 
 ```bash 
