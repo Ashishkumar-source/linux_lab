@@ -21,7 +21,8 @@ Breakdown :
 rwx -> owner has read , write execute 
 r-- -> others have read only 
 
-## chmod - change file permissions 
+## 2. chmod - change file permissions 
+
 ### syntax 
 ```bash
 >>chmod [options ]mode file name 
@@ -48,6 +49,16 @@ Each permission is represented as a number:
 ```bash
 chmod 755 script.sh
 ```
+### output: 
+![Image](<Screenshot from 2025-08-21 19-45-41.png>)
+
+```bash
+chmod 000 file.txt 
+```
+### output: 
+![Image](<Screenshot from 2025-08-20 13-20-37.png>)
+
+
 
 Meaning:
 
@@ -66,10 +77,31 @@ Use u (user/owner), g (group), o (others), a (all). Operators:
 ### Examples:
 ```bash
 chmod u+x script.sh     # Add execute for owner
+``` 
+### output: 
+![Image](<Screenshot from 2025-08-21 19-53-06.png>)
+
+```bash
 chmod g-w notes.txt     # Remove write from group
+```
+### output:
+![Image](<Screenshot from 2025-08-21 20-17-27.png>)
+
+```bash 
 chmod o=r file.txt      # Set others to read only
+```
+### output:
+![Image](<../Screenshot from 2025-08-18 21-08-15.png>)
+
+
+```bash 
 chmod a+r report.txt    # Everyone gets read access
 ```
+### output:
+![Image](<Screenshot from 2025-08-21 20-22-23.png>)
+
+
+
 
 
 ### (C) Recursive Changes
