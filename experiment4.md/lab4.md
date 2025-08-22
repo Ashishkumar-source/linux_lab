@@ -80,7 +80,7 @@ Meaning:
 
     Owner: 7 → rwx
     Group: 5 → r-x
-    Others: 5 → r-x
+    Others: 5 → r-x  
 
 ## (B) Symbolic Method
 
