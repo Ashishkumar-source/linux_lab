@@ -18,5 +18,6 @@ else
   case "$ans" in
     [Yy]*) touch "$file"; echo "Created $file"; echo "You can edit it using your favorite editor." ;;
     *) echo "Not creating file." ;;
-  esac
-fi
+    esac 
+  fi 
+  
